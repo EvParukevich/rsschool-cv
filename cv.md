@@ -27,4 +27,3 @@ Belarus, Gomel
  * [LINK (certificate)](https://drive.google.com/file/d/1yxlg5z9uSb_h8WLx3URYMMj4lzcaQd9R/view?usp=sharing)
  ### **Language**
  English B1
-
