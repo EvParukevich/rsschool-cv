@@ -1,5 +1,6 @@
 # [rsschool-cv](https://EvParukevich.github.io/rsschool-cv/cv)
 # EVGENIY PARUKEVICH
+![me](/rsschool-cv/photo_2023-06-30_17-50-02.jpg)
 ### **Contacts:**
  * [LinkedIn](https://www.linkedin.com/in/evgeniy-parukevich-71431b16a/)
  * Phone: +375 (44)765 87 43 
