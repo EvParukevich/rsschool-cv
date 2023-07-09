@@ -61,3 +61,19 @@ body {
     "github year logo_rsschool"
     ;
 }
+
+.github {
+    grid-area: github;
+    align-self: center;
+    justify-self: center;
+}
+
+.year {
+    grid-area: year;
+    align-self: center;
+    justify-self: center;
+}
+
+.logo_rsschool {
+    grid-area: logo_rsschool;
+}
