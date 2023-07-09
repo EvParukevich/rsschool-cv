@@ -1,7 +1,7 @@
 body {
     margin: 0;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 245px 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 0.2fr;
     grid-template-areas: 
     "photo name"
@@ -13,50 +13,87 @@ body {
     ;
 }
 
+a {
+    text-decoration: none;
+}
+
+h2 {
+    filter: drop-shadow(2px 4px 6px black);
+}
+
 .photo {
-    grid-area: photo;
+    grid-area: photo;    
+}
+
+.photo > img {
+    width: 100%;
+    max-width: 245px;
+    height: 100%;
 }
 
 .name {
     grid-area: name;
+    padding-left: 10px;
+    background-color: rgb(230, 216, 216);
+}
+
+.name > h1 {
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.name > p {
+    color: rgb(251, 250, 248);
+    filter: drop-shadow(2px 4px 6px black);
 }
 
 .contacts {
     grid-area: contacts;
+    background-color: rgb(175, 168, 165);
+    color: antiquewhite;    
 }
 
 .summary {
     grid-area: summary;
+    padding-left: 10px;
 }
 
 .skill_highlights {
     grid-area: skill_highlights;
+    background-color: rgb(175, 168, 165);
+    color: antiquewhite;
 }
 
 .experience {
     grid-area: experience;
+    padding-left: 10px;
 }
 
 .language {
     grid-area: language;
+    background-color: rgb(175, 168, 165);
+    color: antiquewhite;
 }
 
 .code_example {
     grid-area: code_example;
+    padding-left: 10px;
 }
 
 .certifications {
     grid-area: certifications;
+    background-color: rgb(175, 168, 165);
+    color: antiquewhite;
 }
 
 .education {
     grid-area: education;
+    padding-left: 10px;
 }
 
 .foot {
     grid-area: foot;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 245px 1fr 1fr;
     grid-template-areas: 
     "github year logo_rsschool"
     ;
@@ -65,15 +102,23 @@ body {
 .github {
     grid-area: github;
     align-self: center;
-    justify-self: center;
+    justify-self: center;   
 }
 
 .year {
     grid-area: year;
     align-self: center;
     justify-self: center;
+    font-size: 24px;
 }
 
 .logo_rsschool {
     grid-area: logo_rsschool;
+    justify-self: center;
+}
+
+.logo_rsschool > img {
+    max-width: 300px;
+    width: 100%;
+    height: 60px;
 }
