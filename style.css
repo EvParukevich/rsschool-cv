@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 0.2fr;
+    grid-template-areas: 
+    "photo name"
+    "contacts summary"
+    "skill_highlights experience"
+    "language code_example"
+    "certifications education"
+    "foot foot"
+    ;
+}
+
+.photo {
+    grid-area: photo;
+}
+
+.name {
+    grid-area: name;
+}
+
+.contacts {
+    grid-area: contacts;
+}
+
+.summary {
+    grid-area: summary;
+}
+
+.skill_highlights {
+    grid-area: skill_highlights;
+}
+
+.experience {
+    grid-area: experience;
+}
+
+.language {
+    grid-area: language;
+}
+
+.code_example {
+    grid-area: code_example;
+}
+
+.certifications {
+    grid-area: certifications;
+}
+
+.education {
+    grid-area: education;
+}
+
+.foot {
+    grid-area: foot;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "github year logo_rsschool"
+    ;
+}
